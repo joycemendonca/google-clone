@@ -18,33 +18,11 @@
 
 }
 
-.logo{
-    height: 233px;
-    width: auto;
- margin-left: 1350px;
-  
-    
-}
-
-.area-logo{
+.logo-search{
     width: 100%;
-    height: 233px;
-    position: fixed;
     display: flex;
     justify-content: center;
-    margin-top: 109px;
-}
-
-.area-search{
-    width: 100%;
-    height: 118px;  
-    text-align: center;
-    line-height: 50px;
-    margin-top: 240px;
-    position: fixed;
-
-
-
+    margin-top: 100px;
 }
 
 .search{
@@ -52,11 +30,19 @@
     height: 44px;
     border-radius: 30px;
     border: 1px solid lightgray;
-
+    
 }
+ .search-buttons{
+     margin-top: 20px;
+     border-radius: 3px;
+     
+ }
 
-.logo-search{
-    display: flex;
-    justify-content: center;
-    position: fixed;
-}
+ .area-logo{
+     text-align: center;
+ }
+
+ .link-language a{
+    text-decoration: none;
+    color: blue;
+ }
