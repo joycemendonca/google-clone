@@ -62,8 +62,6 @@
      position: fixed;
      bottom: 0;
      left: 0;
-     margin-left: 6px;
-     margin-right: 6px;
      width: 100%;    
      background-color: #f2f2f2;
     
@@ -73,6 +71,10 @@
      height: 44px;
      border-top: 1px solid lightgray;
      border-bottom: 1px solid lightgray;
+     display: flex;
+     align-items: center;
+     color:  #5f6368;
+     padding-left: 6px;
 
  }
 
@@ -80,10 +82,14 @@
      height: 44px;
      display: flex;
      justify-content: space-between;
+     align-items: center;
+     padding-left: 6px;
+     padding-right: 6px;
      
 
  }
 
  .area-footer-3 a{
      text-decoration: none;
+     color:  #5f6368;
  }
