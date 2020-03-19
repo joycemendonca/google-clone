@@ -14,7 +14,7 @@
 
 .navigation a{
     height: 47px;
-   
+    color: rgba(0,0,0,0.87);
     text-decoration: none;
 
 }
@@ -37,6 +37,16 @@
      margin-top: 20px;
      border-radius: 3px;
      
+     
+ }
+
+ .search-buttons button{
+    background-color: #f2f2f2;
+    border: none;
+    width: 155px;
+    height: 36px;
+    color: #5f6368;
+
  }
 
  .area-logo{
@@ -46,4 +56,34 @@
  .link-language a{
     text-decoration: none;
     color: blue;
+ }
+
+ .area-footer{
+     position: fixed;
+     bottom: 0;
+     left: 0;
+     margin-left: 6px;
+     margin-right: 6px;
+     width: 100%;    
+     background-color: #f2f2f2;
+    
+ }
+
+ .area-footer-2{
+     height: 44px;
+     border-top: 1px solid lightgray;
+     border-bottom: 1px solid lightgray;
+
+ }
+
+ .area-footer-3{
+     height: 44px;
+     display: flex;
+     justify-content: space-between;
+     
+
+ }
+
+ .area-footer-3 a{
+     text-decoration: none;
  }
